@@ -1,14 +1,66 @@
 # Checklist de Evaluación Heurística
 
-| ID | Heurística | Pantalla / Contexto | Descripción del problema | Evidencia | Severidad |
-|----|------------|--------------------|--------------------------|-----------|-----------|
-| H1-A | H1 - Visibilidad del estado del sistema | Pantalla de login | Cuando el usuario intenta iniciar sesión no aparece un indicador claro de carga | Evidencias/flujoA_login.png | 2 |
-| H2-A | H5 - Prevención de errores | Login | El mensaje de error al ingresar contraseña incorrecta no es muy claro | Evidencias/flujoA_error.png | 3 |
-| H3-A | H4 - Consistencia y estándares | Login | Algunos elementos visuales cambian de color sin explicación clara | Evidencias/flujoA_login.png | 1 |
-| H4-B | H6 - Reconocimiento antes que recuerdo | Búsqueda | El historial de búsqueda no facilita encontrar búsquedas anteriores | Evidencias/flujoB_busqueda.png | 2 |
-| H5-B | H8 - Diseño minimalista | Resultados de búsqueda | Hay demasiadas imágenes en pantalla que pueden generar sobrecarga visual | Evidencias/flujoB_resultados.png | 2 |
-| H6-B | H1 - Visibilidad del estado del sistema | Resultados búsqueda | No hay indicador claro cuando se actualizan los resultados | Evidencias/flujoB_resultados.png | 2 |
-| H7-C | H4 - Consistencia | Perfil | Algunos iconos no tienen etiquetas claras | Evidencias/flujoC_perfil.png | 2 |
-| H8-C | H10 - Ayuda y documentación | Configuración | No hay explicaciones sobre algunas opciones de configuración | Evidencias/flujoC_configuracion.png | 3 |
-| H9-C | H5 - Prevención de errores | Perfil | No hay confirmación antes de descartar cambios en el perfil | Evidencias/flujoC_perfil.png | 3 |
-| H10-C | H3 - Control del usuario | Configuración | Algunas acciones requieren varios pasos para revertirse | Evidencias/flujoC_configuracion.png | 2 |
+## H1-A
+**Heurística:** H1 - Visibilidad del estado del sistema  
+**Pantalla:** Login  
+**Descripción:** Cuando el usuario intenta iniciar sesión no aparece un indicador claro de carga.  
+**Severidad:** 2  
+
+**Evidencia:**
+
+![Login](Evidencias/flujoA_login.png)
+
+
+## H2-A
+**Heurística:** H5 - Prevención de errores  
+**Pantalla:** Error de inicio de sesión  
+**Descripción:** El mensaje de error cuando la contraseña es incorrecta no ofrece suficiente información al usuario.  
+**Severidad:** 3  
+
+**Evidencia:**
+
+![Error login](Evidencias/flujoA_error.png)
+
+
+## H3-B
+**Heurística:** H6 - Reconocimiento antes que recuerdo  
+**Pantalla:** Búsqueda  
+**Descripción:** El historial de búsqueda no facilita recordar búsquedas previas.  
+**Severidad:** 2  
+
+**Evidencia:**
+
+![Busqueda](Evidencias/flujoB_busqueda.png)
+
+
+## H4-B
+**Heurística:** H8 - Diseño minimalista  
+**Pantalla:** Resultados de búsqueda  
+**Descripción:** La pantalla muestra demasiadas imágenes simultáneamente generando sobrecarga visual.  
+**Severidad:** 2  
+
+**Evidencia:**
+
+![Resultados](Evidencias/flujoB_resultados.png)
+
+
+## H5-C
+**Heurística:** H4 - Consistencia y estándares  
+**Pantalla:** Perfil  
+**Descripción:** Algunos iconos del perfil no tienen etiquetas claras que expliquen su función.  
+**Severidad:** 2  
+
+**Evidencia:**
+
+![Perfil](Evidencias/flujoC_perfil.png)
+
+
+## H6-C
+**Heurística:** H10 - Ayuda y documentación  
+**Pantalla:** Configuración  
+**Descripción:** Algunas opciones de configuración no incluyen explicaciones o ayuda contextual.  
+**Severidad:** 3  
+
+**Evidencia:**
+
+![Configuracion](Evidencias/flujoC_configuracion.png)
